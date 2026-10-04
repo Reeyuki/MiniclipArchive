@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=lGQTDXxZ" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=o9P2E1FK" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.miniclip.com/games/fbshare/111411968896241/","20170320101953","http://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1490005193");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=1utQkbB3" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1026.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+
+	</head>
+	<body>
+		<script>
+			window.fbAsyncInit = function() {
+				FB.init({
+					appId : "111411968896241",
+					xfbml : false,
+					version : 'v2.1'
+				});
+
+			};
+
+			(function(d, s, id){
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) {return;}
+				js = d.createElement(s); js.id = id;
+				js.src = "//web.archive.org/web/20170320101953/http://connect.facebook.com/en_us/sdk.js";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+
+			function receiveFbMessage(event)
+			{
+				if (event.origin !== "http://web.archive.org/web/20170320101953/http://www.miniclip.com") {
+					return;
+				}
+
+				try {
+					var message = JSON.parse(event.data);
+				} catch (e) {
+					return;
+				}
+
+				if (typeof message.call_type !== 'undefined') {
+
+					if (message.call_type === 'api'	&&
+						typeof message.path !== 'undefined' &&
+						typeof message.method !== 'undefined' &&
+						typeof message.params !== 'undefined' &&
+						typeof message.scope !== 'undefined') {
+
+						message.params = message.params || {};
+						message.scope = message.scope || null;
+
+						if (typeof message.login !== 'undefined' && message.login === true) {
+							var accessToken = '';
+
+							FB.getLoginStatus(function(response) {
+								if (response.status === 'connected') {
+									accessToken = response.authResponse.accessToken;
+									message.params.accessToken = accessToken;
+
+									FB.api(message.path, message.method, message.params, function(response) {
+										window.parent.postMessage(JSON.stringify({facebook_response: response}), "http://web.archive.org/web/20170320101953/http://www.miniclip.com");
+									});
+								} else {
+									FB.login(function(response){
+										if (typeof response.authResponse.accessToken !== 'undefined') {
+											accessToken = response.authResponse.accessToken;
+											message.params.accessToken = accessToken;
+
+											FB.api(message.path, message.method, message.params, function(response) {
+												window.parent.postMessage(JSON.stringify({facebook_response: response}), "http://web.archive.org/web/20170320101953/http://www.miniclip.com");
+											});
+										} else {
+											throw 'No access token received';
+										}
+									}, message.scope);
+								}
+							});
+						} else {
+							FB.api(message.path, message.method, message.params, function(response) {
+								window.parent.postMessage(JSON.stringify({facebook_response: response}), "http://web.archive.org/web/20170320101953/http://www.miniclip.com");
+							});
+						}
+
+					} else if (message.call_type === 'ui' &&
+						typeof message.params !== 'undefined') {
+						FB.ui(message.params, function(response) {
+							window.parent.postMessage(JSON.stringify({facebook_response: response}), "http://web.archive.org/web/20170320101953/http://www.miniclip.com");
+						});
+					} else if (message.call_type === 'loginStatus') {
+						FB.getLoginStatus(function(response) {
+							window.parent.postMessage(JSON.stringify({facebook_response: response}), "http://web.archive.org/web/20170320101953/http://www.miniclip.com");
+						});
+					} else {
+						throw 'Invalid call type';
+					}
+				}
+			}
+
+			window.addEventListener('message', receiveFbMessage, false);
+		</script>
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f246896502","applicationID":"34081554","transactionName":"MVFRZktRWhJVAkVYVwgbcEdKRFsMGwZQXF0VG1VQSlhVE1E=","queueTime":0,"applicationTime":15,"atts":"HRZSEANLSRw=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html><!--
+     FILE ARCHIVED ON 10:19:53 Mar 20, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:21:51 Oct 01, 2026.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.725
+  exclusion.robots: 0.063
+  exclusion.robots.policy: 0.052
+  esindex: 0.009
+  cdx.remote: 9.928
+  LoadShardBlock: 449.472 (6)
+  PetaboxLoader3.resolve: 246.291 (5)
+  PetaboxLoader3.datanode: 232.136 (7)
+  load_resource: 81.435
+-->
